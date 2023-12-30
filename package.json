@@ -1,0 +1,15 @@
+{
+	"name": "unit-converter",
+	"version": "1.0.0",
+	"description": "Unit converter in JavaScript.",
+	"main": "src/index.js",
+	"scripts": {
+		"format": "npx prettier --write \"{*,src/**/*}.{js,json}\""
+	},
+	"devDependencies": {
+		"prettier": "^3.1.1"
+	},
+	"keywords": [],
+	"author": "Zhiro990",
+	"license": "ISC"
+}
