@@ -1,9 +1,10 @@
 {
 	"name": "unit-converter",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Unit converter in JavaScript.",
 	"main": "src/index.js",
 	"scripts": {
+		"lint": "npx prettier --check \"{*,src/**/*}.{js,json}\"",
 		"format": "npx prettier --write \"{*,src/**/*}.{js,json}\""
 	},
 	"devDependencies": {
